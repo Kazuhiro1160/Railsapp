@@ -20,7 +20,6 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # gem 'sqlite3'

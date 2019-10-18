@@ -1,2 +1,12 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "HOME")%>
+<div class="main">
+  <div class="container">
+    <h1>英単語を学ぼう</h1>
+    <p>Sharetango では英単語のスペルテストを作成し,</p>
+    <p>それらをユーザー間で共有することができます。</p>
+    <p>英単語学習において重要なことはインプットと確認テストの反復です。</p>
+    <p>ユーザー同士で共有できるため単語テスト作成の作業効率を格段にあげることができます。</p>
+    <%= link_to "Sign up now", signup_path, class: "btn btn-info btn-lg" %>
+  </div>
+</div>
+

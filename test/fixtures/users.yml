@@ -1,0 +1,5 @@
+kazu:
+  name: Kazuhiro Matsubara
+  email: kazuhiro@example.com
+  grade: 3
+  password_digest: <%= User.digest('password') %>

@@ -141,3 +141,17 @@ input {
     @extend .is-invalid;
   }
 }
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember {
+  width: auto;
+  margin-left: 0;
+}
